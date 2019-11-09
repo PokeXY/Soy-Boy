@@ -33,6 +33,8 @@ public class Hazard : MonoBehaviour
             // 4
             Destroy(coll.gameObject);
         }
+
+        GameManager.instance.RestartLevel(1.25f);
     }
 
     // Start is called before the first frame update
