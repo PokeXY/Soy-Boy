@@ -139,7 +139,6 @@ public class SoyBoyController : MonoBehaviour
     {
         input.x = Input.GetAxis("Horizontal");
         input.y = Input.GetAxis("Jump");
-
         animator.SetFloat("Speed", Mathf.Abs(input.x));
 
         if (input.x > 0f)
@@ -177,10 +176,8 @@ public class SoyBoyController : MonoBehaviour
             {
                 PlayAudioClip(runClip);
             }
+            animator.SetBool("IsOnWall", false);
         }
-
-        animator.SetBool("IsOnWall", false);
-
 
         if (jumpDuration > jumpDurationThreshold) input.y = 0f;
     }
