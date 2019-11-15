@@ -1,12 +1,10 @@
 fileFormatVersion: 2
-guid: 5f07b9c531b2e68498632c2394a957c3
+guid: 43becaf83e431374e94c43ddf2bd9808
+timeCreated: 1472388930
+licenseType: Free
 MonoImporter:
-  externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - runClip: {instanceID: 0}
-  - jumpClip: {instanceID: 0}
-  - slideClip: {instanceID: 0}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
