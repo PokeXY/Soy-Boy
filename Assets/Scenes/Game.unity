@@ -3060,7 +3060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ffe1f30345cc5543b2b61c1d4096559, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: 
+  levelName: my super awesome level
 --- !u!4 &1429669183 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000012600439170, guid: da0922812e206c047a57c2a8ddbdbaa8,
